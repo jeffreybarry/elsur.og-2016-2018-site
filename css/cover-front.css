@@ -1,0 +1,108 @@
+
+
+body {
+  color: #fff;
+  text-align: center;
+  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+  font-family: 'Open Sans', sans-serif;
+  font-size:16px;
+}
+
+.jumbotron {  background: url("../images/flags-min.jpg") no-repeat center center fixed;
+
+background-size: cover;
+height: 100vh;
+min-height: 100%;
+display: flex;
+align-items: center;
+}
+
+
+
+ .cover {
+   padding: 0 20px;
+ }
+ .cover .btn-lg {
+   padding: 10px 20px;
+   font-weight: bold;
+ }
+ .cover-heading {
+   font-family: 'Playfair Display', serif;
+ }
+
+ .grayLayer {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding:10px 10px;
+   margin-bottom: 20px;
+   border-radius: 25px;
+
+ }
+ p.lead { font-family: 'Open Sans', serif; font-size:16px; line-height: 24px;}
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+
+
+.interior-page {padding-top: 40px;} /*needed for nav bar */
+
+
+
+
+h2, h3 {font-family: 'Playfair Display', serif;}
+
+h3 {
+  text-shadow: none;
+  color: #3c3a3a;
+  font-weight: 700;
+  font-style:italic;
+}
+
+
+
+.leadButton {
+  color: rgb(117, 117, 121);
+}
+
+.wideImage {
+/*  background-image: url(../images/facade-header.jpg); */
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 1276px;
+  /*background-size: cover;*/
+  background-color: #333;
+}
+
+
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+
+
+.content-body {
+  color: #3c3a3a;
+  text-shadow: none;
+  text-align: left;
+}
+.book-promo {
+ margin: 75px 50px 25px 25px;
+}
+.book-promo img {float:left; padding-right: 20px; text-shadow: none;}
+.book-promo h2 {margin: 0; padding-bottom: 10px;}
+.store-links {text-align: right;}
